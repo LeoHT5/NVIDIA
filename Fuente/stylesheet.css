@@ -1,0 +1,50 @@
+@font-face {
+    font-family: 'GeForce';
+    src: url('GeForce-Bold.eot');
+    src: local('GeForce Bold'), local('GeForce-Bold'),
+        url('GeForce-Bold.eot?#iefix') format('embedded-opentype'),
+        url('GeForce-Bold.woff') format('woff'),
+        url('GeForce-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'GeForce';
+    src: url('GeForce-Light.eot');
+    src: local('GeForce Regular'), local('GeForce-Light'),
+        url('GeForce-Light.eot?#iefix') format('embedded-opentype'),
+        url('GeForce-Light.woff') format('woff'),
+        url('GeForce-Light.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'GeForce';
+    src: url('GeForce-Bold-Alt.eot');
+    src: local('GeForce Bold-Alt'), local('GeForce-Bold-Alt'),
+        url('GeForce-Bold-Alt.eot?#iefix') format('embedded-opentype'),
+        url('GeForce-Bold-Alt.woff') format('woff'),
+        url('GeForce-Bold-Alt.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'GeForce';
+    src: url('GeForce-Light-Alt.eot');
+    src: local('GeForce Regular'), local('GeForce-Light-Alt'),
+        url('GeForce-Light-Alt.eot?#iefix') format('embedded-opentype'),
+        url('GeForce-Light-Alt.woff') format('woff'),
+        url('GeForce-Light-Alt.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face{font-family:"DINPro";src:url("https://images.nvidia.com/etc/designs/nvidiaGDC/clientlibs_base/fonts/DINWebPro.eot");src:url("https://images.nvidia.com/etc/designs/nvidiaGDC/clientlibs_base/fonts/DINWebPro.eot?#iefix") format("embedded-opentype"),url("https://images.nvidia.com/etc/designs/nvidiaGDC/clientlibs_base/fonts/DINWebPro.woff") format("woff");font-style:normal;font-weight:normal;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale}
+@font-face{font-family:"DINPro";src:url("https://images.nvidia.com/etc/designs/nvidiaGDC/clientlibs_base/fonts/DINWebPro-Bold.eot");src:url("https://images.nvidia.com/etc/designs/nvidiaGDC/clientlibs_base/fonts/DINWebPro-Bold.eot?#iefix") format("embedded-opentype"),url("https://images.nvidia.com/etc/designs/nvidiaGDC/clientlibs_base/fonts/DINWebPro-Bold.woff") format("woff");font-style:normal;font-weight:bold;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale}
+@font-face{font-family:"DINPro";src:url("https://images.nvidia.com/etc/designs/nvidiaGDC/clientlibs_base/fonts/DINWebPro-Light.eot");src:url("https://images.nvidia.com/etc/designs/nvidiaGDC/clientlibs_base/fonts/DINWebPro-Light.eot?#iefix") format("embedded-opentype"),url("https://images.nvidia.com/etc/designs/nvidiaGDC/clientlibs_base/fonts/DINWebPro-Light.woff") format("woff");font-style:normal;font-weight:lighter;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale}
+@font-face{font-family:"DINPro-Regular";src:url("https://images.nvidia.com/etc/designs/nvidiaGDC/clientlibs_base/fonts/DINPro-Regular.eot");src:url("https://images.nvidia.com/etc/designs/nvidiaGDC/clientlibs_base/fonts/DINPro-Regular.eot?#iefix") format("embedded-opentype"),url("https://images.nvidia.com/etc/designs/nvidiaGDC/clientlibs_base/fonts/DINPro-Regular.woff") format("woff"),url("https://images.nvidia.com/etc/designs/nvidiaGDC/clientlibs_base/fonts/DINPro-Regular.ttf") format("truetype");-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale}
+@font-face{font-family:"DINPro-Light";src:url("https://images.nvidia.com/etc/designs/nvidiaGDC/clientlibs_base/fonts/DINPro-Light.eot");src:url("https://images.nvidia.com/etc/designs/nvidiaGDC/clientlibs_base/fonts/DINPro-Light.eot?#iefix") format("embedded-opentype"),url("https://images.nvidia.com/etc/designs/nvidiaGDC/clientlibs_base/fonts/DINPro-Light.woff") format("woff"),url("https://images.nvidia.com/etc/designs/nvidiaGDC/clientlibs_base/fonts/DINPro-Light.ttf") format("truetype");-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale}
+@font-face{font-family:"DINWebPro-Medium";src:url("https://images.nvidia.com/etc/designs/nvidiaGDC/clientlibs_base/fonts/DINWebPro-Medium.eot");src:url("https://images.nvidia.com/etc/designs/nvidiaGDC/clientlibs_base/fonts/DINWebPro-Medium.eot?#iefix") format("embedded-opentype"),url("https://images.nvidia.com/etc/designs/nvidiaGDC/clientlibs_base/fonts/DINWebPro-Medium.woff") format("woff");-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale}

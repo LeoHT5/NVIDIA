@@ -1,0 +1,375 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#list1{
+    background-color: white;
+    width: 100%;
+    height: 52px;;
+    padding-left: 15%;
+}
+
+#list2{
+    height: 74px;
+    width: 100%;
+    background-color: rgba(5,5,5);
+    padding-left: 15%;
+    cursor: pointer;
+}    
+
+#list2 img{
+    height: 40px;
+    margin-top: 18px;
+}
+
+#list3{
+    background-color: #1a1a1a;
+    width: 100%;
+    height: 70px;
+    padding-left: 15%;
+    /*position: fixed;*/
+    opacity: 0.9;
+    z-index: 500;
+    padding-top: 25px;
+    cursor: pointer;
+}
+
+#list3 span{
+    font-family: DINPro;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 20px;
+    color: rgb(238,238,238);
+}
+
+#portada{
+    background-image: url(img/portada/geforce-rtx-3080-ti-hero-background-image-spec2-bb770_550-l.jpg);
+    background-size: cover;
+    background-position-x: center;
+    background-position-y: center;
+    width: 100%;
+    height: 770px;
+    display: flex;
+    align-items: center;
+    padding-left: 15%;
+}
+
+#portada-text{
+    width: 640px;
+    height: 400px;
+}
+
+#portada-text h1{
+    font-family: GeForce;
+    font-size: 56px;
+    font-weight: 700;
+    line-height: 56px;
+    text-align: left;
+    color: rgb(118,185,0);
+    margin-bottom: 10px;
+}
+
+#portada-text h2{
+    font-family: GeForce;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 32px;
+    text-align: left;
+    margin-bottom: 15px;
+}
+
+#portada-text p{
+    font-family: DINPro;
+    font-size: 24px;
+    font-weight: 100;
+    line-height: 34px;
+    text-align: left;
+}
+
+#section-1{
+    width: 100%;
+    height: 580px;
+    background-image: url(img/Section/geforce-ampere-rtx-games-background-image-spec2-bb580_440-d@2x.jpg);
+    background-size: cover;
+    background-position-x: center;
+    background-position-y: center;
+    display: flex;
+    align-items: center;
+    padding-left: 15%;
+}
+
+#section-1-text{
+    width: 520px;
+    height: 150px;
+}
+
+h2{
+    font-family: GeForce;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 40px;
+    text-align: left;
+    color: rgb(255,255,255);
+    margin-bottom: 20px;
+}
+
+p{
+    font-family: DINPro;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+    color: rgb(255,255,255);
+
+}
+
+#section-2{
+    width: 100%;
+    height: 938px;
+    background-image: url(img/Section/geforce-rtx-dlss-2560x926-d.jpg);
+    background-size: cover;
+    background-position-x: center;
+    background-position-y: center;
+    display: flex;
+    align-items: center;
+}
+
+#section-2-text{
+    width: 1290px;
+    height: 700px;
+    margin: 0px auto;
+}
+
+#section-2-text h3{
+    font-family: GeForce;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 24px;
+    text-align: center;
+    color: white;
+    margin-bottom: 20px;
+}
+
+#section-2-text iframe{
+    width: 850px;
+    height: 478px;
+    display: block;
+    margin: 30px auto;
+    border: 5px solid rgb(115,115,115);
+}
+
+#section-3{
+    background-image: url(img/Section/geforce-rtx-esports-2560x580-d@2x.jpg);
+    background-size: cover;
+    background-position-x: center;
+    background-position-y: center;
+    width: 100%;
+    height: 580px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    padding-right: 15%;
+}
+
+#section-3-text{
+    width: 516px;
+    height: 300px;
+
+}
+
+a{
+    font-family: DINPro;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    color: rgb(118,185,0);
+    text-decoration: none;
+}
+
+#section-4{
+    width: 100%;
+    height: 580px;
+    background-image: url(img/Section/geforce-rtx-studio-2560x580-d@2x.jpg);
+    background-size: cover;
+    background-position-x: center;
+    background-position-y: center;
+    display: flex;
+    align-items: center;
+    padding-left: 15%;
+}
+
+#section-4-text{
+    width: 516px;
+    height: 300px;
+}
+
+#section-5{
+    width: 100%;
+    height: 580px;
+    background-image: url(img/Section/geforce-rtx-broadcasting-2560x580-d@2x.jpg);
+    background-size: cover;
+    background-position-x: center;
+    background-position-y: center;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    padding-right: 15%;
+}
+
+#section-5-text{
+    width: 516px;
+    height: 300px;
+}
+
+#section-6{
+    width: 100%;
+    height: 580px;
+    background-image: url(img/Section/geforce-ampere-dx-12-ultimate-left-align-banner-background-image-spec2-bb580_440-d@2x.jpg);
+    background-size: cover;
+    background-position-x: center;
+    background-position-y: center;
+    display: flex;
+    align-items: center;
+    padding-left: 15%;
+}
+
+#section-6-text{
+    width: 516px;
+    height: 300px;
+}
+
+#especificaciones{
+    width: 100%;
+    height: 550px;
+    background-color: black;
+    padding-top: 45px;
+    padding-bottom: 45px;
+}
+
+#especificaciones h2{
+    text-align: center;
+    padding-bottom: 15px;
+}
+
+#table{
+    width: 1290px;
+    height: 336px;
+    margin: 0 auto;
+}
+
+.content-table{
+    border-collapse: collapse;
+    color: white;
+}
+
+.content-table thead{
+    font-family: GeForce;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 24px;
+    color: rgb(118,185,0);
+    border-bottom: 1px solid rgb(128,128,128);
+}
+
+.content-table tbody tr{
+    font-family: DINPro;
+    font-size: 14px;
+    line-height: 18px;
+    border-bottom: 1px solid rgb(128,128,128);
+}
+
+#section2{
+    background-color: rgb(26,26,26);
+    padding: 110px;
+}
+
+.caract-benef{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.caracteristica{
+    background-color: black;
+    margin: 0 15px 30px;
+    width: 400px;
+    height: 550px;
+}
+
+.center{
+    height: 200px;
+    width: 370px;
+    margin: 20px auto;
+}
+
+.center h3{
+    font-family: GeForce;
+    color: rgb(118,185,0);
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 24px;
+    text-align: initial;
+}
+
+.center p{
+    padding-top: 10px;
+    font-family: DINPro;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+    color: white;
+}
+
+footer{
+    width: 100%;
+}
+
+#redes{
+    font-family: DINPro;
+    font-size: 16px;
+    color: #747474;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 150px;
+    padding: 15px;
+}
+
+.social{
+    margin: 10px;
+    width: 30px;
+    height: 30px;
+}
+
+#pie{
+    background-color: white;
+    padding-top: 15px;
+    padding-left: 15%;
+}
+
+#logof{
+    width: 115px;
+    height: 30px;
+    margin: 0 25px 20px;
+}
+
+#poli p{
+    color: rgb(102, 102, 102);
+    padding-left: 20px;
+    font-family: DINPro;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    cursor: pointer;
+}
+
+
+
+
+
+
+

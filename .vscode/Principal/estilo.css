@@ -1,0 +1,251 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style-type: none;
+    text-decoration: none;
+}
+
+nav ul li{
+    font-family: DINWebPro-Medium;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 22px;
+    text-decoration: none;
+    color: rgb(26, 26, 26);
+    outline-color: red;
+}
+
+nav ul li ul li a{
+    font-family: DINWebPro-Medium;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 22px;
+}
+
+nav ul{
+    padding: 0;
+    margin: 0;
+}
+
+nav a{
+    display: inline-block;
+    text-align: center;
+    padding: 5px;
+    width: 150px;
+}
+
+nav > ul > li{
+    display: inline-block;
+    position: relative;
+}
+
+nav > ul > li > ul{
+    display: none;
+}
+
+nav > ul > li:hover > ul{
+    display: block;
+    position: absolute;
+    background-color: white;
+}
+
+nav a:hover{
+    background-color: coral;
+}
+
+header{
+    padding-right: 15%;
+    padding-left: 15%;
+    width: 100%;
+    height: 65px;
+}
+
+.titulo{
+    margin-top: 15px;
+    float: left;
+    width: 92px;
+    height: 30px;
+}
+
+.titulo img{
+    width: 110px;
+    height: 100%;
+}
+
+nav{
+    width: 100%;
+    height: 100%;
+    margin-left: 100px;
+    padding-top: 20px;
+}
+
+#item{
+    margin-left: 20px;
+    margin-bottom: 12px;
+}
+
+.item2{
+    text-align: center;
+    float: right;
+}
+
+#portada{
+    background-image: url(img/portada/proviz-rtx-wmfg-2560x580-d.jpg);
+    background-size: cover;
+    background-position-x: center;
+    background-position-y: center;
+    width: 100%;
+    height: 560px;
+    display: flex;
+    align-items: center;
+    padding-left: 16%;
+}
+
+#portada-text{
+    width: 500px;
+    height: 150px;
+    
+}
+
+#portada-text h1{
+    font-family: DINPro;
+    font-size: 56px;
+    font-weight: 400;
+    line-height: 56px;
+    text-align: left;
+    color: rgb(26, 26, 26);
+}
+
+#portada-text p{
+    font-family: DINPro;
+    font-size: 24px;
+    font-weight: 100;
+    line-height: 32px;
+    text-align: left;
+    color: black;
+}
+
+.section2{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: center;
+}
+
+.title{
+    margin-top: 50px;
+    margin-bottom: 10px;
+}
+
+.title h3{
+    text-align: center;
+    color: #76b900;
+    font-family: DINPro-Light;
+    font-size: 36px;
+    font-weight: 100;
+    line-height: 36px;
+    text-transform: uppercase;
+}
+
+.sticker{
+    width: 295px;
+    height: 407px;
+    margin: 15px ;
+    border-radius: 5px;
+    background-color: white;
+    position: relative;
+    cursor: pointer;
+}
+
+.center{
+    height: 210px;
+    width: 270px;
+    margin: 5px auto;
+}
+
+h5{
+    font-family: DINPro-Regular;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 23px;
+    color: #76b900;
+}
+
+.center p{
+    margin-top: 10px;
+    color: #1a1a1a;
+    font-family: DINPro-Regular;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 21px;
+}
+
+.sticker::after{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    content: "";
+    background: #2c3e50;
+    width: 100%;
+    height: 100%;
+    filter: blur(5px);
+    z-index: -1;
+}
+
+.logo1{
+    height: 166px;
+    width: 295px;
+}
+
+#redes{
+    font-family: DINPro;
+    font-size: 16px;
+    color: #747474;
+    background-color: black;
+    height: 100px;
+    text-align: center;
+    padding: 15px;
+}
+footer{
+    width: 100%;
+    margin-top: 50px;
+}
+
+#pie{
+    padding-right: 15%;
+    padding-left: 15%;
+}
+
+#logof{
+    width: 120px;
+    height: 30px;
+    margin: 20px;
+}
+
+#imgf{
+    width: 100%;
+    height: 100%;
+}
+
+#poli{
+    color: rgb(102, 102, 102);
+    height: 70px;
+    padding-left: 2px;
+    display: inline-block;
+    font-family: DINPro;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    cursor: pointer;
+}
+
+#bajo{
+    font-size: 12px;
+}
+
+.social{
+    margin: 10px;
+    width: 30px;
+    height: 30px;
+}

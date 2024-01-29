@@ -1,0 +1,331 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#contenedor{
+    background-color: black;
+}
+
+#list1{
+    background-color: white;
+    width: 100%;
+    height: 52px;;
+    padding-left: 15%;
+}
+
+#list2{
+    height: 74px;
+    width: 100%;
+    background-color: rgba(5,5,5);
+    padding-left: 14.5%;
+}    
+
+#list2 img{
+    height: 50px;
+    margin: 10px;
+}
+
+#list3{
+    background-color: #1a1a1a;
+    width: 100%;
+    height: 70px;
+    color: white;
+    padding-left: 15%;
+    /*position: fixed;*/
+    opacity: 0.9;
+    z-index: 500;
+    font-family: DINPro;
+    font-size: 13px;
+    font-weight: 600;
+    line-height: 20px;
+}
+
+#list3 span{
+    display: block;
+    padding-top: 20px;
+    font-size: 13px;
+}
+
+#centro{
+    padding-right: 15%;
+    padding-left: 15%;
+}
+
+#portada{
+    position: relative;
+    width: 100%;
+    height: 770px;
+    background: url(img/section/geforce-rtx-30-series-laptops-hero-background-image-spec2-bb770_550-l.jpg);
+    background-size: cover;
+    background-position-x: 50%;
+    background-position-y: 50%;
+}
+
+#portada-text{
+    color: white;
+    position: absolute;
+    width: 656px;
+    height: 400px;
+    top: 100px;
+    left: 280px;
+}
+
+#portada-text h1{
+    font-family: GeForce;
+    font-size: 58px;
+    font-weight: 700;
+    line-height: 58px;
+    text-align: left;
+    color: rgb(118,185,0);
+    margin-bottom: 15px;
+}
+
+#portada-text h2{
+    font-family: GeForce;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 32px;
+    text-align: left;
+    margin-bottom: 20px;
+}
+
+#portada-text p{
+    font-family: DINPro;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+}
+
+#title-ampere h2{
+    display: block;
+    padding-top: 105px;
+    text-align: center;
+    color: white;
+    font-size: 40px;
+    font-family: GeForce;
+    line-height: 40px;
+}
+
+#section-ampere{
+    height: 598px;
+    background-image: url(img/section/geforce-ampere-architecture-background-image-spec2-bb580_440-l@2x.jpg);
+    background-size: cover;
+    background-position-x: 50%;
+    background-position-y: 50%;
+    position: relative;
+}
+
+#descrip-ampere{
+    color: white;
+    width: 400px;
+    height: 400px;
+    position: absolute;
+    top: 100px;
+    left: 450px;
+}
+
+#descrip-ampere h4{
+    font-family: DINPro;
+    font-size: 16px;
+    font-weight: 400;
+    display: block;
+    line-height: 32px;
+}
+
+#descrip-ampere h3{
+    font-family: DINPro;
+    font-size: 32px;
+    font-weight: 400;
+    display: block;
+    line-height: 32px;
+}
+
+#section-reflex{
+    width: 100%;
+    height: 580px;
+    background-image: url(img/section/geforce-rtx-30-series-laptops-reflex-1350x580-l.jpg);
+    background-size: cover;
+    background-position-x: 50%;
+    background-position-y: 50%;
+    position: relative;
+}
+
+#descrip-reflex{
+    color: white;
+    width: 650px;
+    height: 350px;
+    position: absolute;
+    top: 150px;
+    left: 970px;
+}
+
+#descrip-reflex b{
+    font-family: Geforce;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 40px;
+    text-align: initial;
+}
+
+#descrip-reflex p{
+    font-family: DINPro;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: initial;
+}
+
+#section-clases{
+    width: 100%;
+    height: 580px;
+    background-image: url(img/section/geforce-rtx-30-series-laptops-student-2560x580-d.jpg);
+    background-size: cover;
+    background-position-x: 50%;
+    background-position-y: 50%;
+    position: relative;
+}
+
+#descrip-clases{
+    width: 650px;
+    height: 350px;
+    color: white;
+    position: absolute;
+    left: 970px;
+    top: 150px;
+}
+
+#descrip-clases b{
+    font-family: Geforce;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 40px;
+    text-align: initial;
+}
+
+#descrip-clases p{
+    font-family: DINPro;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: initial;
+}
+
+#section-caract{
+    width: 100%;
+    height: 1352px;
+    border: 2px solid red;
+}  
+
+#title-caract h2{
+    color: white;
+    font-family: GeForce;
+    font-size: 40px;
+    font-weight: 400;
+    line-height: 40px;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.caract-benef{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+#section2{
+    background-color: rgb(26,26,26);
+    padding: 120px;
+}
+
+.caracteristica{
+    background-color: black;
+    margin: 0 15px 30px;
+    width: 400px;
+    height: 500px;
+}
+
+.center{
+    height: 200px;
+    width: 375px;
+    margin: 20px auto;
+}
+
+.center h3{
+    font-family: GeForce;
+    color: rgb(118,185,0);
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 24px;
+    text-align: initial;
+}
+
+.center p{
+    padding-top: 10px;
+    font-family: DINPro;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+    color: white;
+}
+
+#redes{
+    font-family: DINPro;
+    font-size: 16px;
+    color: #747474;
+    background-color: black;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer{
+    width: 100%;
+}
+
+#pie{
+    background-color: white;
+    padding-top: 15px;
+    padding-left: 15%;
+}
+
+#logof{
+    width: 120px;
+    height: 30px;
+    margin: 0 25px 20px;
+}
+
+#imgf{
+    width: 100%;
+    height: 100%;
+}
+
+#poli{
+    color: rgb(102, 102, 102);
+    height: 70px;
+    padding-left: 20px;
+    font-family: DINPro;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    cursor: pointer;
+}
+
+.social{
+    margin: 10px;
+    width: 30px;
+    height: 30px;
+}
+
+
+
+
+
+
+
+
+
